@@ -1,0 +1,141 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navline{ 
+    text-align: right;
+    list-style: none;
+}
+/* designing nav bar  */
+.topnav{
+    background-color: #F59E0B;
+    border-radius: 2rem;
+    padding: 0.7rem;
+}
+.topnav div{
+    font-weight: bold;
+    font-size: 30px;
+    color: white; 
+}
+.navline li{
+        display: inline-block;
+}
+.topnav a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100px;
+}
+.topnav a:hover{
+    color: black;
+}
+.topnav a:active{
+    background-color: #FDE68A;
+    color:white;
+}
+/* putting image  */
+img{
+    display: block;
+    margin: auto;
+    width: 500px;
+    border-radius:4px solid;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    
+}
+h2{
+    text-align: center;
+    padding: 0.5rem;
+}
+p{
+    text-align: center;
+    padding: 0.5rem;
+}
+.section .tech {
+    border-radius: 2rem;
+    background-color:#D1D5DB;
+}
+.section .project{
+    text-align: center;
+    border-radius: 2rem;
+    background-color: #F3F4F6;
+}
+/* .section a{
+    margin: 600px;
+} */
+.section .blog {
+    text-align: center;
+    border-radius: 2rem;
+    background-color:#D1D5DB;
+}
+
+/* footer */
+footer{ 
+    text-align: center;
+    padding-inline-start: 0px;
+    background-color: #F59E0B;
+    padding: 0.5rem 0.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    color: white;
+}
+.social li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+footer .links{
+    color: white;
+    text-decoration: none;
+}
+/* projects block  */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 3rem;
+}
+.olist{
+    list-style: none;
+    text-align: center;
+}
+.ilist{
+    padding: 2rem;
+}
+.olist .ulist1 {
+    background-color: #D1D5DB;
+    border-radius: 2rem;
+}
+.olist .ulist2 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+}
+.olist .ulist3 {
+    background-color: #D1D5DB;
+    border-radius: 2rem;
+}
+.olist .ulist4 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+}
+.olist .ulist5 {
+    background-color: #D1D5DB;
+    border-radius: 2rem;
+}
+.olist .ulist6 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+}
+.olist a{
+    background-color: #F59E0B;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}

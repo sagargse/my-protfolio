@@ -70,12 +70,14 @@ p{
     border-radius: 2rem;
     background-color: #F3F4F6;
     margin: 1rem;
+    padding: 1.5rem;
 }
 .section .blog {
     text-align: center;
     border-radius: 2rem;
     background-color:#D1D5DB;
     margin: 1rem;
+    padding: 1.5rem;
 }
 
 /* footer */
@@ -83,7 +85,7 @@ footer{
     text-align: center;
     padding-inline-start: 0px;
     background-color: #F59E0B;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     margin-top: 2rem;
     border-radius: 2rem;
     color: white;
@@ -92,9 +94,9 @@ footer{
     color: white;
     list-style: none;
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem;
 }
-footer .links{
+footer .links{ 
     font-size: 3vw;
     color: white;
     text-decoration: none;

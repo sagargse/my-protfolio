@@ -103,12 +103,9 @@ h1{
     padding: 3rem;
 }
 .olist{
-    list-style: none;
+    /* list-style: none; */
     text-align: center;
 }
-/* .ilist{
-    padding: 2rem;
-} */
 .olist .ulist1 {
     background-color: #D1D5DB;
     border-radius: 2rem;

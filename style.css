@@ -153,6 +153,37 @@ h1{
     padding: 0.8rem;
     margin: 1rem;
 }
+.olist .ulist7 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+.olist .ulist8 {
+    background-color: #D1D5DB; 
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+.olist .ulist9 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+.olist .ulist10 {
+    background-color: #D1D5DB; 
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+.olist .ulist11 {
+    background-color: #F3F4F6;
+    border-radius: 2rem;
+    padding: 0.8rem;
+    margin: 1rem;
+}
+
 .olist a{
     background-color: #F59E0B;
     color: white;

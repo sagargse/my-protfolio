@@ -196,9 +196,16 @@ h1{
     background-color: #D1D5DB;
     border-radius: 1rem;
     padding: 1rem;
+    margin: 0rem 2rem 2rem 0rem;
+}
+.container-content2{
+    text-align: center;
+    background-color: #F3F4F6;
+    border-radius: 1rem;
+    padding: 1rem;
     margin-right: 2rem ;
 }
-#read{
+.read{
     background-color: #F59E0B;
     color: white;
     text-decoration: none;

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <style>
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+        p{
+            font-size: 25px;
+        }
+        li{
+            font-size: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: #F59E0B;">Functions In JavaScript</h1>
+    <small><b>september 16 , 2021</b></small>
+    <hr></hr>
+    <h2>1. What is Functions?</h2>
+    <p>Functions as we know in every programming language this words occurs frequently.
+    <br>A function is basically a block of code written to perform a specified actions. We have to define a fuction in our program to call it.</p>
+    <h3>Defining a JavaScript function:-</h3>
+    <ol>
+    <li>FUNCTION keyword</li>
+    <li>FUNCTION Name</li>
+    <li>A list of parameters seperated by commas inside the parenthesis ()</li>
+    <li>Block of executable code inside the curly braces.</li>
+    </ol>
+    <h3>Syntax:-</h3>
+    <p>function functionName()
+        <br>{
+        <br><span style="color: green; font-style: italic;">//block of executable code
+        </span><br>
+        };
+    </p>
+    <p>* FunctionName can contains letters,digits,underscore</p>
+    <p>Example :
+    <br><br><span style="color: green; font-style: italic;">//defining the function</span>
+    <br>function multiply(a,b){
+    <br>return a*b;
+    <br>};
+    <br><span style="color: green; font-style: italic;">//callling the function</span>
+    <br>multiply (4,5);  <span style="color: green; font-style: italic;">//20</span></p>
+    <p>A <b>return</b> keyword ends the function execution and returns the specified value to the calling function from where it is called.</p>
+    <h2>2. ARROW FUNCTIONS</h2>
+    <p>1.Arrow functions were introduced in ES6.
+    <br>2.It is the shorter version of the actual function syntax.
+    <br><br>Let us take the above example of <b>multiply</b> fuction through arrow function</p>
+    <p>var multiply = (a,b) =>  {
+    <br>return a*b;
+    <br>};
+    <br>Console.log(multiply(2,3)); <span style="color: green; font-style: italic;">//6</span>
+    <br><br>Let us understand the different variation of arrow function</p>
+    <ol>
+    <li><span style="color: green; font-style: italic;">//arrow function with no argumnets.</span>
+    <br><br>Var  printOutput = () =>{
+    <br>Return “hello world”;
+    <br>} 
+    <br>printOutput(); <span style="color: green; font-style: italic;">//hello world</span></li>
+    <br><li><span style="color: green; font-style: italic;">//arrow function with single argument.</span>
+    <br><br>Var  inputAge = (age)=>{  
+    <br>Console.log(“your age is: ${age}.”);
+    <br>};
+    <br>inputAge(18); <span style="color: green; font-style: italic;">//output: your age is:18.</span></li>
+    <br><li><span style="color: green; font-style: italic;">//arrow function with two argument.</span>
+        <br><br>var multiply = (a,b) =>  {  
+        <br>return a*b;
+        <br>};
+        <br>Console.log(multiply(2,3));<span style="color: green; font-style: italic;">  //6</span></li>
+    </ol>
+        
+
+
+
+</body>
+</html>

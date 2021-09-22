@@ -214,4 +214,5 @@ h1{
 }
 .contents{
     font-size: 20px;
+    justify-content: right;
 }

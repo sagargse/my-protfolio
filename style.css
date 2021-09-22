@@ -115,7 +115,6 @@ h1{
     text-align: center;
     margin:auto;
     padding: 1rem;
-    justify-content: center;
 }
 .olist .ulist1 {
     background-color: #F3F4F6;
@@ -191,10 +190,26 @@ h1{
     border-radius: 1rem;
     text-decoration: none;
 }
-/* blogs block  */
-h1{
+
+.container-content1{
     text-align: center;
+    background-color: #D1D5DB;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-right: 2rem ;
 }
-p{
-    text-align: center;
+#read{
+    background-color: #F59E0B;
+    color: white;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border-color: 2px solid #F59E0B;
+    outline: #F59E0B;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.contents{
+    font-size: 20px;
 }

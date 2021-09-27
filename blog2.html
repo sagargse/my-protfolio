@@ -15,6 +15,11 @@
             font-size: 20px;
             font-style: italic;
         }
+        img{
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+        }
     </style>
     <title>JSON</title>
 </head>
@@ -54,7 +59,23 @@
         <li>Boolean</li>
         <li>Null</li>
     </ol>
-    <p>* While in JavaScript the value can be of all type includings function , data , expression.</p>
+    <p>* In JSON the values can't be of type fuction,date,expression.</p>
+    <p>* While in JavaScript the value can be of all type includings function , date , expression.</p>
+    <p>* Values in JSON can be objects.
+        <br><br> example:
+        <br> "student" : {"name" : "sagar" , "age": 21 , city: "Patna"}
+    </p>
+    <p>* JSON values also contains array.
+        <br><br> examaple:
+        <br> "student" : ["sagar" , "shubham" , "raj"]
+    </p>
+    <p><b>1.</b> If you have data stored in JavaScript object,you can convert it into JSON by
+        <br>JSON.stringify()
+        <br><br><b>2.</b> If you have data stored in JSON,you can convert it into JavaScript object by
+        <br> JSON.prase()
+    </p>
+    <img src="example.jpeg" alt="loading...">
+
 
 </body>
 </html>
